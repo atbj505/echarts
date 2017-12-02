@@ -5,11 +5,11 @@ import burn
 from burn import Burn
 
 
-def method_selecter(name):
+def method_selecter(file_name, sheet_name):
     '''Burn:燃尽图'''
-    if name == 'Burn':
-        burn = Burn.Burn('burn.xlsx')
-        pass
+    if file_name == 'Burn':
+        burn = Burn.Burn('Burn.xlsx', sheet_name)
+        burn.open_sheet()
 
 
 if __name__ == "__main__":
