@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Burn	../echarts.py	/^class Burn():$/;"	kind:class	line:10
+Line	../echarts.py	/^from pyecharts import Line$/;"	kind:namespace	line:7
+__init__	../echarts.py	/^    def __init__(self):$/;"	kind:member	line:11
+burn	../echarts.py	/^    burn = Burn()$/;"	kind:variable	line:111
+calculate_velocity	../echarts.py	/^    def calculate_velocity(self, points, x_dates, y_points):$/;"	kind:member	line:69
+draw_line	../echarts.py	/^    def draw_line(self, point):$/;"	kind:member	line:15
+echarts.py	../echarts.py	1;"	kind:file	line:1
+optparse	../echarts.py	/^import optparse$/;"	kind:namespace	line:4
+set_database	../echarts.py	/^    def set_database(self):$/;"	kind:member	line:100
+set_optparse	../echarts.py	/^    def set_optparse(self):$/;"	kind:member	line:77
+sqlite3	../echarts.py	/^import sqlite3$/;"	kind:namespace	line:5
