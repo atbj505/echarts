@@ -4,14 +4,21 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Burn	../echarts.py	/^class Burn():$/;"	kind:class	line:10
-Line	../echarts.py	/^from pyecharts import Line$/;"	kind:namespace	line:7
-__init__	../echarts.py	/^    def __init__(self):$/;"	kind:member	line:11
-burn	../echarts.py	/^    burn = Burn()$/;"	kind:variable	line:111
-calculate_velocity	../echarts.py	/^    def calculate_velocity(self, points, x_dates, y_points):$/;"	kind:member	line:69
-draw_line	../echarts.py	/^    def draw_line(self, point):$/;"	kind:member	line:15
+Burn	../burn/Burn.py	/^class Burn(object):$/;"	kind:class	line:5
+Burn	../echarts.py	/^from burn import Burn$/;"	kind:namespace	line:5
+Burn.py	../burn/Burn.py	1;"	kind:file	line:1
+Line	../burn/Burn.py	/^from pyecharts import Line$/;"	kind:namespace	line:1
+__init__	../burn/Burn.py	/^    def __init__(self, file_name, sheet_name):$/;"	kind:member	line:6
+__init__.py	../burn/__init__.py	1;"	kind:file	line:1
+burn	../echarts.py	/^import burn$/;"	kind:namespace	line:4
 echarts.py	../echarts.py	1;"	kind:file	line:1
-optparse	../echarts.py	/^import optparse$/;"	kind:namespace	line:4
-set_database	../echarts.py	/^    def set_database(self):$/;"	kind:member	line:100
-set_optparse	../echarts.py	/^    def set_optparse(self):$/;"	kind:member	line:77
-sqlite3	../echarts.py	/^import sqlite3$/;"	kind:namespace	line:5
+file_name	../burn/Burn.py	/^    def file_name(self):$/;"	kind:member	line:11
+file_name	../burn/Burn.py	/^    def file_name(self, file_name):$/;"	kind:member	line:15
+fire	../echarts.py	/^import fire$/;"	kind:namespace	line:2
+method_selecter	../echarts.py	/^def method_selecter(file_name, sheet_name):$/;"	kind:function	line:8
+open_sheet	../burn/Burn.py	/^    def open_sheet(self):$/;"	kind:member	line:32
+pprint	../echarts.py	/^from pprint import pprint$/;"	kind:namespace	line:1
+sheet_name	../burn/Burn.py	/^    def sheet_name(self):$/;"	kind:member	line:22
+sheet_name	../burn/Burn.py	/^    def sheet_name(self, sheet_name):$/;"	kind:member	line:26
+xlrd	../burn/Burn.py	/^import xlrd$/;"	kind:namespace	line:2
+xlrd	../echarts.py	/^import xlrd$/;"	kind:namespace	line:3
