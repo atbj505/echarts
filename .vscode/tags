@@ -5,20 +5,19 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 Burn	../burn/Burn.py	/^class Burn(object):$/;"	kind:class	line:5
-Burn	../echarts.py	/^from burn import Burn$/;"	kind:namespace	line:5
+Burn	../echarts.py	/^from burn import Burn$/;"	kind:namespace	line:2
 Burn.py	../burn/Burn.py	1;"	kind:file	line:1
 Line	../burn/Burn.py	/^from pyecharts import Line$/;"	kind:namespace	line:1
 __init__	../burn/Burn.py	/^    def __init__(self, file_name, sheet_name):$/;"	kind:member	line:6
 __init__.py	../burn/__init__.py	1;"	kind:file	line:1
-burn	../echarts.py	/^import burn$/;"	kind:namespace	line:4
+draw	../burn/Burn.py	/^    def draw(self, index, values, velocities):$/;"	kind:member	line:60
 echarts.py	../echarts.py	1;"	kind:file	line:1
 file_name	../burn/Burn.py	/^    def file_name(self):$/;"	kind:member	line:11
 file_name	../burn/Burn.py	/^    def file_name(self, file_name):$/;"	kind:member	line:15
-fire	../echarts.py	/^import fire$/;"	kind:namespace	line:2
-method_selecter	../echarts.py	/^def method_selecter(file_name, sheet_name):$/;"	kind:function	line:8
-open_sheet	../burn/Burn.py	/^    def open_sheet(self):$/;"	kind:member	line:32
-pprint	../echarts.py	/^from pprint import pprint$/;"	kind:namespace	line:1
+fire	../echarts.py	/^import fire$/;"	kind:namespace	line:1
+get_data	../burn/Burn.py	/^    def get_data(self):$/;"	kind:member	line:32
+get_velocity	../burn/Burn.py	/^    def get_velocity(self, values):$/;"	kind:member	line:47
+method_selecter	../echarts.py	/^def method_selecter(file_name, sheet_name):$/;"	kind:function	line:5
 sheet_name	../burn/Burn.py	/^    def sheet_name(self):$/;"	kind:member	line:22
 sheet_name	../burn/Burn.py	/^    def sheet_name(self, sheet_name):$/;"	kind:member	line:26
 xlrd	../burn/Burn.py	/^import xlrd$/;"	kind:namespace	line:2
-xlrd	../echarts.py	/^import xlrd$/;"	kind:namespace	line:3

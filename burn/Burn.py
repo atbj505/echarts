@@ -50,10 +50,10 @@ class Burn(object):
         """
         dates = values[0]
         plans = values[2]
-        n = plans[-1] / dates[-1]
+        n = plans[-1] / (dates[-1] - 1)
         velocities = []
         for date in dates:
-            velocity = n * date
+            velocity = n * (date - 1)
             velocities.append(velocity)
         return velocities
 
@@ -62,7 +62,21 @@ class Burn(object):
         绘制
         """
         line = Line('燃尽图')
-        line.add(index[1], values[0], values[1], is_label_show=True, xais_name="日期", yais_name="故事点",line_width=4)
-        line.add(index[2], values[0], values[2], is_label_show=True, xais_name="日期", yais_name="故事点", line_width=4)
+        line.add(
+            index[1],
+            values[0],
+            values[1],
+            is_label_show=True,
+            xais_name="日期",
+            yais_name="故事点",
+            line_width=4)
+        line.add(
+            index[2],
+            values[0],
+            values[2],
+            is_label_show=True,
+            xais_name="日期",
+            yais_name="故事点",
+            line_width=4)
         line.add("速率", values[0], velocities, xais_name="时间", yais_name="故事点")
         line.render('Burn.html')
